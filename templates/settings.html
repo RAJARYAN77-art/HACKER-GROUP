@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>Settings</h1>
+<form method="post">
+    <label for="new_password">New Password:</label>
+    <input type="password" id="new_password" name="new_password" required>
+    <input type="submit" value="Change Password">
+</form>
+{% endblock %}
